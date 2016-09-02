@@ -1,9 +1,18 @@
+h1, h2 {
+  font-family: "Montserrat", sans-serif;
+}
+
 body {
-  font-family:'Miriam Libre', sans-serif
+  font-family: Helvetica;
   /*font-size: 0.9em;
   letter-spacing: 0.8px;
   margin-bottom: $gutter * 2;
   margin-top: $gutter * 4;*/
+}
+
+body {
+  margin-left: 30%;
+  margin-right: 30%;
 }
 
 /*font-family: 'Montserrat', sans-serif;
