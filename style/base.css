@@ -1,20 +1,120 @@
-h1, h2 {
-  font-family: "Montserrat", sans-serif;
-}
-
 body {
-  font-family: Helvetica;
-  /*font-size: 0.9em;
-  letter-spacing: 0.8px;
-  margin-bottom: $gutter * 2;
-  margin-top: $gutter * 4;*/
+	margin:auto;
+	/*max-width:850px;*/
+  max-width:750px;
+	font-family: Helvetica;
+	font-weight:100;
+	margin-bottom: 50px;
+	padding-left: 10px;
+	padding-right: 10px;
 }
 
-body {
-  margin-left: 30%;
-  margin-right: 30%;
+h1 {
+	font-weight:600;
+	font-size:35px;
+	font-family: 'Montserrat', sans-serif;
+  color: #6534ff;
 }
 
-/*font-family: 'Montserrat', sans-serif;
-font-family: 'Miriam Libre', sans-serif;
-font-family: 'Noto Sans', sans-serif;
+h2{
+	font-size: 20px;
+	font-weight:800;
+	margin-top:20px;
+	font-family: 'Montserrat', sans-serif;
+	padding-bottom: 3px;
+  color: #6534ff;
+
+}
+h3{
+	font-size: 20px;
+	font-weight:800;
+	margin-bottom: 5px;
+	font-family: 'Montserrat', sans-serif;
+	margin-top: 0;
+	color: #000000 !important;
+}
+p {
+	font-size: 15px;
+	line-height: 19px;
+	font-weight:100;
+	margin:0;
+}
+
+a:link, a:visited{
+	color: #000000;
+	text-decoration: none;
+}
+
+p.description a:link{
+  color: #6534ff;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+#work-row a {
+	  color: #6534ff !important;
+}
+nav ul li a {
+    text-align: bottom;
+    font-weight: 700;
+    text-decoration: none;
+    margin-right: 1em;
+    color: #000000 !important;
+
+}
+
+.parent {
+  margin: 0;
+  list-style: none;
+
+  display: -web756kit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+
+  -webkit-flex-flow: row wrap;
+  justify-content: space-around;
+}
+
+.col {
+  width: 50%;
+  margin-top: 10px;
+  text-align: left;
+}
+
+.detail {
+	width: 50%;
+	margin-top: 10px;
+	text-align: left;
+	margin-bottom: 20px;
+}
+
+img.book {
+	-moz-box-shadow: 3px 3px 5px 6px #ccc;
+		-webkit-box-shadow: 3px 3px 5px 6px #ccc;
+		box-shadow: 3px 2px 2px 1px #ccc;
+}
+
+footer p {
+  margin: 0px;
+	font-family: 'Montserrat', sans-serif;
+  font-size: 15px;
+	color: black;
+	margin-top: 20px;
+}
+
+@media (max-width: 756px) {
+ 	div.col {
+		flex-direction: column;
+		width: 100%;
+		margin-top: 5px;
+	}
+	div.detail {
+		flex-direction: column;
+		width: 100%;
+		margin-top: 20px;
+	}
+}
