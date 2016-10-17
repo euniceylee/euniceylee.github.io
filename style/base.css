@@ -50,6 +50,12 @@ p.description a:link{
   color: #6534ff;
 }
 
+.pub {
+	text-transform: uppercase;
+	font-size: 12px;
+	margin-bottom: 5px;
+}
+
 a:hover {
 	text-decoration: underline;
 }
