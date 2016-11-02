@@ -55,7 +55,7 @@ p.description a:link{
 	font-size: 12px;
 	margin-bottom: 5px;
 	color: darkgrey;
-	margin-top: 2px;
+	padding-top: 2px;
 }
 
 a:hover {
