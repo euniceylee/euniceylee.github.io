@@ -67,7 +67,7 @@ p.description a:link{
 
 a:hover {
 	/*text-decoration: underline;*/
-  background-color: #FFFF00;
+  background-color: rgba(255,242,51,.29804);
   /*background-color: yellow;*/
 }
 
