@@ -85,7 +85,7 @@ nav ul li a {
 .parent {
   margin: 0;
   list-style: none;
-
+	margin-bottom: 30px;
   display: -web756kit-box;
   display: -moz-box;
   display: -ms-flexbox;
