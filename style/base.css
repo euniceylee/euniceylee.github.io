@@ -1,138 +1,130 @@
 body {
-	margin-top: 30px;
-	margin:auto;
-  max-width:750px;
-  font-family: 'Inconsolata', monospace;
-	font-weight:100;
-	margin-bottom: 50px;
-  font-size: 14px;
-	padding-left: 10px;
-	padding-right: 10px;
-  background-color: #f7f7f7;
-  color: #4d4d4d;
-
+max-width:750px;
+font-family:Inconsolata, monospace;
+font-weight:100;
+font-size:16px;
+padding-left:10px;
+padding-right:10px;
+background-color:#f7f7f7;
+color:#4d4d4d;
+margin:auto auto 50px;
 }
 
 p.description {
-  padding-top: 10px;
-  padding-bottom: 10px;
+padding-top:10px;
+padding-bottom:10px;
+font-size: 16px;
+font-weight: 100;
+color:#4d4d4d!important;
 }
+
 h1 {
-	font-weight:600;
-	font-size:30px;
-  font-family: 'Inconsolata', monospace;
+font-weight:600;
+font-size:40px;
+font-family:Inconsolata, monospace;
 }
 
-h2{
-	font-size: 18px;
-	font-weight:800;
-	margin-top:20px;
-  font-family: 'Inconsolata', monospace;
-	padding-bottom: 3px;
+h2 {
+font-size:20px;
+font-weight:500;
+margin-top:20px;
+font-family:Inconsolata, monospace;
+padding-bottom:3px;
+}
 
+h3 {
+font-size:20px;
+font-weight:500;
+margin-bottom:5px;
+font-family:Inconsolata, monospace;
+margin-top:0;
+color:#4d4d4d!important;
 }
-h3{
-	font-size: 16px;
-	font-weight:800;
-	margin-bottom: 5px;
-  font-family: 'Inconsolata', monospace;
-	margin-top: 0;
-	color: #4d4d4d !important;
-}
+
 p {
-	font-size: 14px;
-	line-height: 19px;
-	font-weight:100;
-	margin:0;
+font-size:16px;
+line-height:19px;
+font-weight:100;
+margin:0;
 }
 
-a:link, a:visited{
-	color: #4d4d4d;
-	text-decoration: none;
-  background-color: rgba(255,242,51,.29804)
+a:link,a:visited {
+color:#4d4d4d;
+text-decoration:none;
+background-color:rgba(255,242,51,.29804);
 }
 
-a:hover{
-  text-decoration: underline;
-
+a:hover {
+text-decoration:underline;
 }
 
 li a {
-  background-color: #f7f7f7 !important;
+background-color:#f7f7f7!important;
 }
 
 .pub {
-	text-transform: uppercase;
-	font-size: 12px;
-	margin-bottom: 5px;
-	color: darkgrey;
-	padding-top: 2px;
+text-transform:uppercase;
+font-size:14px;
+margin-bottom:5px;
+color:darkgrey;
+padding-top:2px;
 }
 
 nav ul li a {
-    text-align: bottom;
-    font-weight: 700;
-    font-size: 14px;
-    text-decoration: none;
-    margin-right: 1em;
-    color: #4d4d4d !important;
-    /*font-family: 'Montserrat', sans-serif;*/
-    font-family: 'Inconsolata', monospace;
-    background-color: #f7f7f7 !important;
-
+text-align:bottom;
+font-weight:100;
+font-size:16px;
+text-decoration:none;
+margin-right:1em;
+color:#4d4d4d!important;
+font-family:Inconsolata, monospace;
+background-color:#f7f7f7!important;
 }
 
 .parent {
-  margin: 0;
-  list-style: none;
-	margin-bottom: 30px;
-  display: -web756kit-box;
-  display: -moz-box;
-  display: -ms-flexbox;
-  display: -webkit-flex;
-  display: flex;
-
-  -webkit-flex-flow: row wrap;
-  justify-content: space-around;
+list-style:none;
+display:flex;
+-webkit-flex-flow:row wrap;
+justify-content:space-around;
+margin:0 0 30px;
 }
 
 .col {
-  width: 50%;
-  margin-top: 10px;
-  text-align: left;
+width:50%;
+margin-top:10px;
+text-align:left;
 }
 
 .detail {
-	width: 50%;
-	margin-top: 10px;
-	text-align: left;
-	margin-bottom: 20px;
+width:50%;
+margin-top:10px;
+text-align:left;
+margin-bottom:20px;
 }
 
 img.book {
-	-moz-box-shadow: 3px 3px 5px 6px #ccc;
-		-webkit-box-shadow: 3px 3px 5px 6px #ccc;
-		box-shadow: 3px 2px 2px 1px #ccc;
+-moz-box-shadow:3px 3px 5px 6px #ccc;
+-webkit-box-shadow:3px 3px 5px 6px #ccc;
+box-shadow:3px 2px 2px 1px #ccc;
 }
 
 footer p {
-  margin: 0px;
-	/*font-family: 'Montserrat', sans-serif;*/
-  font-family: 'Inconsolata', monospace;
-  font-size: 12px;
-	color: black;
-	margin-top: 20px;
+font-family:Inconsolata, monospace;
+font-size:12px;
+color:#000;
+margin:20px 0 0;
 }
 
-@media (max-width: 756px) {
- 	div.col {
-		flex-direction: column;
-		width: 100%;
-		margin-top: 5px;
-	}
-	div.detail {
-		flex-direction: column;
-		width: 100%;
-		margin-top: 20px;
-	}
+@media max-width 756px{
+div.col {
+flex-direction:column;
+width:100%;
+margin-top:5px;
+}
+
+div.detail {
+flex-direction:column;
+width:100%;
+margin-top:20px;
+}
 }
