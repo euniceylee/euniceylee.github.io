@@ -90,13 +90,27 @@ margin:0 0 30px;
 }
 
 .col {
-width:50%;
 margin-top:10px;
 text-align:left;
 }
 
+/*If [device width] is less than or equal to 600px,*/
+@media (min-width:750px) {
 .detail {
+  margin-top:10px;
+  text-align:left;
+  margin-bottom:20px;
+  width:50%;
+
+}
+.col {
 width:50%;
+margin-top:10px;
+text-align:left;
+}
+}
+
+.detail {
 margin-top:10px;
 text-align:left;
 margin-bottom:20px;
